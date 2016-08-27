@@ -1,10 +1,24 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+Some hidden files and folders are created. This files are responsibles to manager
+the deep side of the commits and everything. It is necessary if you want to use
+the git manager system.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging area is responsible to keep the files the will be commited.
+Working directoty is the local folders where you are working, without commits and stuff.
+Repository is the folder that contains all the project files.
+
+These three work places are useful to keep an efficient version control and a smart
+file manager.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+You can use the command git diff to compares the files in the staging area and the
+files in the working directory, and if everything is ok, you commit the files.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
